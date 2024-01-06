@@ -50,7 +50,7 @@ main {
 }
 
 .banner-container {
-    background-image: url('resources/images/blog background.jpg');
+    background-image: url('../images/blog background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
