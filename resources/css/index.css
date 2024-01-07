@@ -19,7 +19,7 @@ header {
     position: fixed;
     z-index: 100;
     width: 100%;
-    background-color: #607274;
+    background-color: #252c2e;
 }
 
 header .content {
@@ -143,6 +143,33 @@ main {
     color: #800080;
 }
   
-  .main-link {
+.main-link {
     font-size: 1.5rem;
+}
+
+.portrait-container {
+    display: inline-flex;
+}
+
+.portrait-photo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
+
+.timeline {
+    width: 800px;
+}
+
+.timeline li {
+    word-wrap: break-word;
+}
+
+.timeline li:hover {
+    word-wrap: break-word;
+    font-size: 1.5rem;
+}
