@@ -147,7 +147,7 @@ main {
 }
 
 .portrait-container {
-    background-image: url('/Users/linhnguyenquoc/Desktop/Blog Webseite/resources/images/portrait background.png');
+    background-image: url('../images/portrait background.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-flex;
