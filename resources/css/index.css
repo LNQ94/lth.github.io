@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #E4E4D0;
+    background-color: #E7F1DC;
     max-width: 1600px;
 }
 
@@ -61,7 +61,7 @@ main {
 }
 
 .banner {
-    background-color:rgba(148, 166, 132, 0.8);
+    background-color:rgba(227, 231, 160, 0.8);
     height: 250px;
     align-content: center;
     justify-content: center;
@@ -100,9 +100,8 @@ main {
 }
 
 .title {
-    background-color: #607274;
+    background-color: #B5C1B2;
     text-align: center;
-    color: white;
 }
 
 .title h1 {
@@ -132,7 +131,7 @@ main {
     display: inline-block;
     padding: 10px 20px;
     color: #343434;
-    background-color: #AEC3AE;
+    background-color: #FEFAE0;
     border-radius: 5px;
     transition: background-color 0.3s ease;
     margin-bottom: 5px;
@@ -140,7 +139,7 @@ main {
 }
 
 .link-container a:visited, .link-list a:visited {
-    color: #800080;
+    color: grey;
 }
   
 .main-link {
@@ -148,28 +147,61 @@ main {
 }
 
 .portrait-container {
+    background-image: url('/Users/linhnguyenquoc/Desktop/Blog Webseite/resources/images/portrait background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: inline-flex;
+    width: 100%;
+    height: 500px;
+    margin-top: -45px;
 }
 
 .portrait-photo {
     display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 250px;
     border-radius: 10%;
     border: 4px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
 
 .timeline {
-    width: 800px;
+    margin-top: 50px;
+    background-color: rgba(256, 256, 256, 0.6);
+    border-radius: 10%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 250px;
 }
 
 .timeline li {
+    line-height: 3rem;
     word-wrap: break-word;
 }
 
 .timeline li:hover {
     word-wrap: break-word;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.icon {
+    height: 30px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.text.timeline li {
+    display: flex;
+    align-items: center;
+}
+
+.text.timeline li img.icon {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+  
+.text.timeline li:hover img.icon {
+    transform: scale(1.4);
 }
